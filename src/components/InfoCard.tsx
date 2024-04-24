@@ -1,4 +1,3 @@
-import { Home, Mail } from "react-feather";
 import { useNavigate } from "react-router-dom";
 import { IClient } from "../utils/interfaces";
 
@@ -11,7 +10,7 @@ const InfoCard = ({ _id, name, email, address: { address } }: IClient) => {
 
   return (
     <div>
-      <div className="w-[465px] h-[350px] flex flex-col justify-between bg-white rounded-2xl shadow">
+      <div className="w-[465px] h-[330px] flex flex-col justify-between bg-white rounded-2xl shadow">
         <div className="px-5 py-8 sm:p-10 sm:pb-6">
           <div className="flex flex-col items-center">
             <div>
